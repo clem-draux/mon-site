@@ -1,0 +1,92 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+body a{
+  color: white;
+  text-decoration: none;
+}
+ a:hover{
+color: red;
+}
+#image1{
+  border-radius: 30%;
+  padding-top: 2%;
+}
+.presentation{
+  color: white;
+  font-family: "Lato";
+  font-variant: small-caps;
+  text-shadow: 1px 1px 4px white;
+}
+ p{
+  font-size: 20px;
+  color: white;
+}
+#clips{
+  font-family: Lato;
+  font-variant: small-caps;
+  color: white;
+  text-shadow: 1px 1px 4px white;
+
+}
+.menu{
+  display: block;
+  width: 100%;
+  top: 0px;
+  list-style: circle;
+  text-align: center;
+  position: fixed;
+  height: 5%;
+  background-image:url(../image/etoile2.jpg);
+  left: 0px;
+}
+.menu ul{
+  list-style: none;
+}
+.menu li{
+  display: inline;
+  font-size: 30px;
+  margin: 40px;
+  padding: 40px;
+  border: white;
+  color: white;
+  font-family: Megrim;
+}
+.menu li a{
+  color: white;
+  text-decoration: none;
+}
+.menu li a:hover{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+}
+#instru{
+  color: white;
+  font-family: Lato;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 4px white;
+
+
+}
+#vidéos{
+  color: white;
+  font-family: Lato;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 4px white;
+
+
+}
+#téléchargement{
+  color: white;
+  font-family: Lato;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 4px red;
+
+}
+footer{
+  color: green;
+  font-family:"Press Start 2P"
+}
